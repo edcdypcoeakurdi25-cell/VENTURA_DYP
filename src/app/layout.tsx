@@ -3,8 +3,34 @@ import { Toaster } from "@/components/ui/toaster"
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Ventura 2025',
+  metadataBase: new URL('https://dypventura.com'),
+  title: 'Ventura 2025 | DY Patil Entrepreneurship Summit',
   description: 'VENTURA 2025: Pitch. Network. Innovate. The annual flagship entrepreneurship summit of Dr. D. Y. Patil College of Engineering, Akurdi.',
+  keywords: ['Ventura 2025', 'DY Patil', 'entrepreneurship summit', 'startup', 'pitch competition', 'Akurdi', 'EDC DYP'],
+  alternates: {
+    canonical: 'https://dypventura.com',
+  },
+  openGraph: {
+    title: 'Ventura 2025 | DY Patil Entrepreneurship Summit',
+    description: 'VENTURA 2025: Pitch. Network. Innovate. The annual flagship entrepreneurship summit of Dr. D. Y. Patil College of Engineering, Akurdi.',
+    url: 'https://dypventura.com',
+    siteName: 'Ventura 2025',
+    locale: 'en_IN',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Ventura 2025 | DY Patil Entrepreneurship Summit',
+    description: 'VENTURA 2025: Pitch. Network. Innovate.',
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
+  },
 };
 
 export default function RootLayout({
