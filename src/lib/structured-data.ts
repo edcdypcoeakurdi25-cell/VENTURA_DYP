@@ -36,7 +36,7 @@ export const eventSchema = {
   },
   "offers": {
     "@type": "Offer",
-    "url": "https://unstop.com/p/dyp-ventura-2025-entrepreneurship-development-cell-dypcoe-1542359",
+    "url": "https://unstop.com/competitions/dyp-ventura-entrepreneurship-development-cell-1731117",
     "price": "0",
     "priceCurrency": "INR",
     "availability": "https://schema.org/InStock"

@@ -8,7 +8,6 @@ import { TimelineSection } from "@/components/landing/timeline-section";
 import { LocationSection } from "@/components/landing/location-section";
 import { Footer } from "@/components/landing/footer";
 import { SplashScreen } from "@/components/splash-screen";
-import { BackgroundBeamsWithCollision } from "@/components/background-beams";
 
 export default function Home() {
   const [showSplash, setShowSplash] = useState(true);
@@ -35,9 +34,7 @@ export default function Home() {
     <div className="flex min-h-screen w-full flex-col">
       <Header />
       <main className="flex-1">
-        <BackgroundBeamsWithCollision>
-          <HeroSection />
-        </BackgroundBeamsWithCollision>
+        <HeroSection />
         <AboutSection />
         <TimelineSection />
         <LocationSection />

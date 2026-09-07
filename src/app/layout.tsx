@@ -1,4 +1,4 @@
-import type {Metadata} from 'next';
+import type { Metadata } from 'next';
 import { Toaster } from "@/components/ui/toaster"
 import { eventSchema, organizationSchema, breadcrumbSchema } from '@/lib/structured-data';
 import './globals.css';
