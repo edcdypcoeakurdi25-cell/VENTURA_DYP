@@ -36,7 +36,7 @@ export const eventSchema = {
   },
   "offers": {
     "@type": "Offer",
-    "url": "https://unstop.com/competitions/dyp-ventura-entrepreneurship-development-cell-1731117",
+    "url": "https://unstop.com/college-fests/dyp-ventura-dr-d-y-patil-college-of-engineering-dypcoe-akurdi-pune-501009",
     "price": "0",
     "priceCurrency": "INR",
     "availability": "https://schema.org/InStock"

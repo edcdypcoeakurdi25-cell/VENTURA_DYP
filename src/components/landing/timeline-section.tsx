@@ -12,6 +12,7 @@ const scheduleDays = [
       'Startup Pitching',
       'Investor Jury',
       'Speaker Sessions',
+      'Panel Discussion',
       'Startup Expo',
       'First Investor Connect',
     ],

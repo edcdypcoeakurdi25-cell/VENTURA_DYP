@@ -7,7 +7,7 @@ import { HeroOrbVisual } from './hero-orb-visual';
 
 export function HeroSection() {
   const registerLink =
-    'https://unstop.com/competitions/dyp-ventura-entrepreneurship-development-cell-1731117';
+    'https://unstop.com/college-fests/dyp-ventura-dr-d-y-patil-college-of-engineering-dypcoe-akurdi-pune-501009';
   const videoLink =
     'https://www.youtube.com/embed/Q4L66jZByhQ?si=l9pUEIR9ABA_mgOX';
   const [showVideo, setShowVideo] = useState(false);
@@ -96,6 +96,7 @@ export function HeroSection() {
               <Link
                 href={registerLink}
                 target="_blank"
+                rel="noopener noreferrer"
                 className="rounded-full bg-[#184BFF] hover:bg-[#123cd2] text-white font-black px-7 py-3 text-xs sm:text-sm uppercase tracking-wider shadow-[0_0_22px_rgba(24,75,255,0.6)] transition-all duration-200 transform hover:scale-[1.03] text-center"
               >
                 REGISTER NOW
